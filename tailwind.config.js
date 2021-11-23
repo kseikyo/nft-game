@@ -16,6 +16,25 @@ module.exports = {
       '6xl': '4rem',
     },
     extend: {
+      fontFamily: {
+        sans: [
+          'Inter var',
+          'ui-sans-serif',
+          'system-ui',
+          'apple-system',
+          'BlinkMacSystemFont',
+          'Segoe UI',
+          'Roboto',
+          'Helvetica Neue',
+          'Arial',
+          'Noto Sans',
+          'sans-serif',
+          'Apple Color Emoji',
+          'Segoe UI Emoji',
+          'Segoe UI Symbol',
+          'Noto Color Emoji',
+        ],
+      },
       colors: {
         gray: {
           100: '#f7fafc',

@@ -8,6 +8,9 @@ class MyDocument extends Document {
     return (
       <Html lang={AppConfig.locale}>
         <Head />
+        <head>
+          <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+        </head>
         <body>
           <Main />
           <NextScript />
